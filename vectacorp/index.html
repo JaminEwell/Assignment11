@@ -138,13 +138,13 @@ $(document).ready(function(){
         <div class="container">
           <!-- Example row of columns -->
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3">
               <h2>Welcome</h2>
               <p>With innovative approaches and advanced methodologies, <b>Vecta Corporation</b> provides scalable business solutions to help companies achieve success through revenue increase, cost management, and user satisfaction. Our approach stems from the three most important business growth aspects: helping companies reach prospects, assist in converting prospects to customers, and assist in retaining those customers. This is accomplished through our interactive solutions and expertise in providing a memorable and positive user experience.</p>
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
                       <a href="#prospect" class="nav-link active" data-toggle="tab" id="first_tab"><strong>vProspect 2.0</strong></a>
@@ -181,21 +181,58 @@ $(document).ready(function(){
 
 
 
-            <div class="col-md-4">
+            <div class="col-md-3">
+
               <h2>Client Testimonials</h2>
-              <p>Throughout the years we have worked with Vecta Corporation, we have always been amazed at the level of dedication and professionalism that they have provided us and our WGDC products. It is this commitment that has increased both our income and exposure exponentially.</p>
-              <p>
-              Aaron D. Tyres<br>
-              <abbr title="Chief Executive Officeer">CEO</abbr><br>
-              American Rubber, Inc.
-              </p>
+                <!--ACCORDION-->
+
+                <div id="accordion">
+                    <div class="card">
+                      <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                          <button class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Aaron D. Tyres
+                          </button>
+                        </h5>
+                      </div>
+                  
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>Throughout the years we have worked with Vecta Corporation, we have always been amazed at the level of dedication and professionalism that they have provided us and our WGDC products. It is this commitment that has increased both our income and exposure exponentially.</p>
+                            <p>
+                            Aaron D. Tyres<br>
+                            <abbr title="Chief Executive Officeer">CEO</abbr><br>
+                            American Rubber, Inc.
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                          <button class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Robin Banks
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>Incredible results from an incredible effort by the Vecta Corporation team! We are very pleased with the business benefits we have rceived by working with them.</p>
+                            <p>
+                            Robin Banks<br>
+                            <abbr title="Chief Technology Officeer">CEO</abbr><br>
+                            Profits Financial, LLC.
+                            </p>  
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+
+
+ 
               
-              <p>Incredible results from an incredible effort by the Vecta Corporation team! We are very pleased with the business benefits we have rceived by working with them.</p>
-              <p>
-              Robin Banks<br>
-              <abbr title="Chief Technology Officeer">CEO</abbr><br>
-              Profits Financial, LLC.
-              </p>        
+      
 
             </div>
           </div>
